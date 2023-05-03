@@ -1,0 +1,48 @@
+.list-container {
+  max-height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+.list-container .ant-list-items {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.list-container .ant-list-item {
+  text-align: left;
+  clear: both;
+}
+
+.list-container .list-item {
+  max-width: 80%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.list-container .list-item table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  color: #212529;
+}
+
+.list-container .list-item table th,
+.list-container .list-item table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #000;
+}
+
+.fixed-bottom-area {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.input-container {
+  display: flex;
+  max-width: 90%;
+  margin: 20px auto;
+  align-items: flex-end;
+}
